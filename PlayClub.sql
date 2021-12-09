@@ -1,0 +1,30 @@
+CREATE TABLE CLUB_INFO(
+Club_id INT PRIMARY KEY,
+Stadium INT,
+FOREIGN KEY(Stadium) REFERENCES STADIUM(Stadium_id)
+);
+
+CREATE TABLE STADIUM (
+Stadium_id INT PRIMARY KEY,
+Stadium_name VARCHAR(45),
+Capacity VARCHAR(45)
+);
+
+CREATE TABLE PLAYER(
+Player_id INT PRIMARY KEY ,
+Club_id INT,
+Player_name VARCHAR(45),
+Uniform_num INT,
+Date_of_birth DATETIME,
+position VARCHAR(45),
+FOREIGN KEY(Club_id) REFERENCES CLUB_INFO(Club_id)
+);
+
+CREATE TABLE IF NOT EXISTS `mydb`.`CLUB_RESULT` (
+Club_id INT PRIMARY KEY,
+points INT,
+lost INT,
+ga INT,
+gf INT,
+FOREIGN KEY(Club_id) REFERENCES CLUB_INFO(Club_id)
+);
