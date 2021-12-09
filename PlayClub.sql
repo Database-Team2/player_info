@@ -15,7 +15,7 @@ Player_id INT PRIMARY KEY ,
 Club_id INT,
 Player_name VARCHAR(45),
 Uniform_num INT,
-Date_of_birth DATETIME,
+Date_of_birth VARCHAR(45),
 position VARCHAR(45),
 FOREIGN KEY(Club_id) REFERENCES CLUB_INFO(Club_id)
 );
