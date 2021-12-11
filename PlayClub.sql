@@ -6,7 +6,10 @@ Capacity VARCHAR(45)
 
 CREATE TABLE CLUB_INFO(
 Club_id INT PRIMARY KEY,
+Club_name VARCHAR(45),
 Stadium INT,
+Club_url VARCHAR(45),
+Club_badge_image VARCHAR(45),
 FOREIGN KEY(Stadium) REFERENCES STADIUM(Stadium_id)
 );
 
@@ -22,9 +25,13 @@ FOREIGN KEY(Club_id) REFERENCES CLUB_INFO(Club_id)
 
 CREATE TABLE CLUB_RESULT(
 Club_id INT PRIMARY KEY,
-points INT,
+position INT,
+played INT,
+Won INT,
+Drawn INT,
 lost INT,
 ga INT,
 gf INT,
+Form VARCHAR(45),
 FOREIGN KEY(Club_id) REFERENCES CLUB_INFO(Club_id)
 );
