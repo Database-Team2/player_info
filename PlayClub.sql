@@ -14,7 +14,7 @@ CREATE TABLE PLAYER(
 Player_id INT PRIMARY KEY ,
 Club_id INT,
 Player_name VARCHAR(45),
-Uniform_num INT,
+Uniform_num INT check (Uniform_num >= 1, Uniform_num<=100),
 Date_of_birth VARCHAR(45),
 position VARCHAR(45),
 FOREIGN KEY(Club_id) REFERENCES CLUB_INFO(Club_id)
