@@ -1,0 +1,104 @@
+{
+   "Stadium_info":[
+      {
+         "Stadium_id":1,
+         "Stadium_name":"Emirates Stadium",
+         "Capacity":60260
+      },
+      {
+         "Stadium_id":2,
+         "Stadium_name":"Villa Park",
+         "Capacity":42682
+      },
+      {
+         "Stadium_id":3,
+         "Stadium_name":"Brentford Community Stadium",
+         "Capacity":17250
+      },
+      {
+         "Stadium_id":4,
+         "Stadium_name":"American Express Community Stadium",
+         "Capacity":30666
+      },
+      {
+         "Stadium_id":5,
+         "Stadium_name":"Turf Moor",
+         "Capacity":21944
+      },
+      {
+         "Stadium_id":6,
+         "Stadium_name":"Stamford Bridge",
+         "Capacity":40853
+      },
+      {
+         "Stadium_id":7,
+         "Stadium_name":"Selhurst Park",
+         "Capacity":25486
+      },
+      {
+         "Stadium_id":8,
+         "Stadium_name":"Goodison Park",
+         "Capacity":39221
+      },
+      {
+         "Stadium_id":9,
+         "Stadium_name":"Elland Road",
+         "Capacity":37890
+      },
+      {
+         "Stadium_id":10,
+         "Stadium_name":"King Power Stadium",
+         "Capacity":32273
+      },
+      {
+         "Stadium_id":11,
+         "Stadium_name":"Anfield",
+         "Capacity":53394
+      },
+      {
+         "Stadium_id":12,
+         "Stadium_name":"Etihad Stadium",
+         "Capacity":55017
+      },
+      {
+         "Stadium_id":13,
+         "Stadium_name":"Old Trafford",
+         "Capacity":74879
+      },
+      {
+         "Stadium_id":14,
+         "Stadium_name":"St. James' Park",
+         "Capacity":52305
+      },
+      {
+         "Stadium_id":15,
+         "Stadium_name":"Carrow Road",
+         "Capacity":27359
+      },
+      {
+         "Stadium_id":16,
+         "Stadium_name":"St. Mary's Stadium",
+         "Capacity":32384
+      },
+      {
+         "Stadium_id":17,
+         "Stadium_name":"Tottenham Hotspur Stadium",
+         "Capacity":62062
+      },
+      {
+         "Stadium_id":18,
+         "Stadium_name":"Vicarage Road",
+         "Capacity":21000
+      },
+      {
+         "Stadium_id":19,
+         "Stadium_name":"London Stadium",
+         "Capacity":60000
+      },
+      {
+         "Stadium_id":20,
+         "Stadium_name":"Molineux Stadium",
+         "Capacity":32050
+      }
+   ]
+}
