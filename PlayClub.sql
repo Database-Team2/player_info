@@ -8,8 +8,8 @@ CREATE TABLE CLUB_INFO(
 Club_id INT PRIMARY KEY,
 Club_name VARCHAR(45),
 Stadium INT,
-Club_url VARCHAR(45),
-Club_badge_image VARCHAR(45),
+Club_url VARCHAR(100),
+Club_badge_image VARCHAR(100),
 FOREIGN KEY(Stadium) REFERENCES STADIUM(Stadium_id)
 );
 
